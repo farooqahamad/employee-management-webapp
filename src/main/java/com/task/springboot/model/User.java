@@ -1,4 +1,4 @@
-package net.javaguides.springboot.model;
+package com.task.springboot.model;
 
 import java.util.Collection;
 

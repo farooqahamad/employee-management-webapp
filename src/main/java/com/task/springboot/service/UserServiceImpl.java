@@ -1,4 +1,4 @@
-package net.javaguides.springboot.service;
+package com.task.springboot.service;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -12,10 +12,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.springboot.dto.UserRegistrationDto;
-import net.javaguides.springboot.model.Role;
-import net.javaguides.springboot.model.User;
-import net.javaguides.springboot.repository.UserRepository;
+import com.task.springboot.dto.UserRegistrationDto;
+import com.task.springboot.model.Role;
+import com.task.springboot.model.User;
+import com.task.springboot.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService{
